@@ -3,12 +3,12 @@ header, nav, main, footer{
     padding: 1rem;
 }
 
-@media only screen and(min-width:600px){
+@media only screen and (min-width:600px){
     nav ul{display: flex; gap: 1rem;}
     main{background: yellow;}
     }
     
-    @media only screen and(min-width: 900px){
+    @media only screen and (min-width: 900px){
         body{ max-width: 900px; margin: auto;}
         h1{font-size:3rem;}
         main{background:blue;}
